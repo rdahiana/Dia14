@@ -1,0 +1,96 @@
+
+
+#personajesIMG {
+    width: 550px; /* Ancho de la imagen */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción original */
+    border-radius: 50%;
+    position: fixed; /* Para que la posición sea relativa a la ventana del navegador */
+    top: 78%; /* Centra verticalmente */
+    left: 78%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra la imagen */
+}
+
+
+#personajes {
+    position: absolute; /* Cambia a 'relative' si quieres posicionarlo respecto a su contenedor */
+    top: 108px; /* Cambia según la posición vertical deseada */
+    left: 632px; /* Cambia según la posición horizontal deseada */
+    border-collapse: collapse; /* Combina los bordes de la tabla */
+    border: 1px solid ; /* Añade bordes a las celdas */
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    color: black;
+
+
+}
+
+
+#personajes td {
+    border: 8px solid black; /* Añade bordes a las celdas */
+    background-color: rgba(151, 145, 145, 0.535);
+    width: 610px; /* Ancho de la tabla */
+    height: 50px;
+    font-weight: 900;
+
+}
+
+#importarJson {
+    position: absolute;
+    top: 50px; /* Mantiene la posición vertical arriba */
+    left: 50%; /* Coloca el botón en el centro horizontal */
+    transform: translateX(-50%); /* Centra horizontalmente el botón */
+    border: 2px solid;
+    background-color: rgb(189, 187, 187);
+    border-radius: 0%;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#importarJson:hover{
+    background-color: rgba(49, 240, 180, 0.74); 
+}
+
+
+#fondo {
+    position: fixed; /* Para que la imagen de fondo se mantenga fija */
+    top: 50%; /* Posición vertical centrada */
+    left: 50%; /* Posición horizontal centrada */
+    transform: translate(-51%, -50%); /* Centra la imagen */
+    width: 50%; /* Ajusta el ancho de la imagen */
+    height: 120%; /* Ajusta la altura de la imagen */
+    z-index: -1; /* Establece la capa detrás de todo el contenido */
+}
+
+body {
+    background-color: black; /* Establece el fondo de toda la página como negro */
+}
+
+#titulo {
+    width: 20%; /* Ajusta el ancho de la imagen */
+    height: auto; /* Ajusta la altura de la imagen */
+    position: relative;
+    top: 25px; /* Cambia según la posición vertical deseada */
+    left: 250px; /* Cambia según la posición horizontal deseada */
+    position: fixed; /* Para que la posición sea relativa a la ventana del navegador */
+}
+
+#imagenPersonaje {
+    background-size: cover;
+    position: relative;
+    top: 200px; /* Cambia según la posición vertical deseada */
+    left: 1350px; /* Cambia según la posición horizontal deseada */
+    position: fixed; /* Para que la posición sea relativa a la ventana del navegador */
+    display: none;
+
+}
+
+.container_imagen{
+    color: rgba(255, 255, 255, 0.08);
+    text-align: center;
+}
+
+#imagenPersonajeImg {
+    border-radius: 50%;
+}
